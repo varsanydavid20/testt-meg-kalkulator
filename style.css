@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: white;
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* Világoskék háttér, mint a mintaképen */
+.kulso-doboz {
+    width: 90%;
+    max-width: 560px;
+
+    margin: 95px auto 0 auto;
+    padding: 35px 20px;
+
+    background-color: #e2f7ff;
+
+    border-radius: 7px;
+}
+
+
+/* Maga a fehér kalkulátor */
+.kalkulator {
+    width: 245px;
+
+    margin: 0 auto;
+    padding: 0 5px;
+
+    background-color: white;
+
+    text-align: center;
+}
+
+
+/* Cím */
+h1 {
+    margin: 0 0 25px 0;
+
+    font-family: "Times New Roman", Times, serif;
+
+    font-size: 36px;
+    font-weight: bold;
+
+    white-space: nowrap;
+}
+
+
+/* Egy-egy input sor */
+.sor {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-bottom: 7px;
+}
+
+
+/* Feliratok */
+label {
+    width: 125px;
+
+    margin-right: 6px;
+
+    text-align: right;
+
+    font-family: "Times New Roman", Times, serif;
+
+    font-size: 17px;
+}
+
+
+/* Beviteli mezők */
+input {
+    width: 78px;
+    height: 24px;
+
+    padding: 2px 5px;
+
+    border: 1px solid #999;
+    border-radius: 3px;
+
+    font-size: 16px;
+}
+
+
+/* Számítás gomb */
+button {
+    margin-top: 2px;
+
+    padding: 3px 10px;
+
+    background-color: #eeeeee;
+
+    border: 1px solid #999;
+    border-radius: 3px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #dddddd;
+}
+
+
+/* Eredmény */
+#eredmeny {
+    margin-top: 8px;
+
+    min-height: 42px;
+
+    font-family: "Times New Roman", Times, serif;
+
+    font-size: 18px;
+
+    text-align: center;
+
+    line-height: 20px;
+}
+
+
+/* Hibaüzenet */
+.hiba {
+    color: red;
+}
